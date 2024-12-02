@@ -1,1 +1,2 @@
-la cartella documenti contiene la lista dei requisiti e dei casi d'uso
+- la cartella documenti contiene la lista dei requisiti e dei casi d'uso
+- la cartella Design contiene i diagrammi delle classi, i diagrammi di sequenza ed eventuali altri diagrammi, con tanto di spiegazioni relative
