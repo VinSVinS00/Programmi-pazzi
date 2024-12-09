@@ -10,3 +10,6 @@
 - tutti i diagrammi sequenziali sono autoesplicativi e seguono il flusso degli eventi da sinistra verso destra. In altro ci sono tutti gli oggetti che eseguono i metodi/le istruzioni che arrivano sulle proprie activation bar.
 - alcuni diagrammi di sequenza hanno valori di ritorno e richiedono metodi bidirezionali del flusso di eventi
 - alcuni diagrammi hanno anche delle self call, che richiamano la activation bar degli oggetti che non riescono a soddisfare le richieste del metodo precedentemente chiamato
+
+# Output
+- la cartella Output contiene il file doxygen del progetto
