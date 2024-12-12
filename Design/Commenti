@@ -4,12 +4,8 @@
 - La classe Gruppo è pressocchè uguale alla classe Rubrica, essendo una vera e propria collezione di contatti, la differenza è che la classe Gruppo integra un attributo che definisce il nome del gruppo creato
 - La classe Archivio include una collezione che immagazzina tutti i Contatti nascosti dalla rubrica. Il metodo "sposta" si occupa di archiviare nella collezione il contatto della rubrica. Il metodo "remove" fa tornare il contatto dall'archivio alla rubrica
 - L'interfaccia "InterfacciaRubrica" contiene tutti i metodi usati sia dalla Rubrica che dal Gruppo, essedo questi pressocchè identici. Il metodo "sort" ordina la collezione in ordine alfabetico per nome di contatto
-- Il metodo toString è definito in ogni classe e personalizza la stampa dei dati delle specifiche classi
 
 # Diagrammi sequenziali
 - tutti i diagrammi sequenziali sono autoesplicativi e seguono il flusso degli eventi da sinistra verso destra. In altro ci sono tutti gli oggetti che eseguono i metodi/le istruzioni che arrivano sulle proprie activation bar.
 - alcuni diagrammi di sequenza hanno valori di ritorno e richiedono metodi bidirezionali del flusso di eventi
 - alcuni diagrammi hanno anche delle self call, che richiamano la activation bar degli oggetti che non riescono a soddisfare le richieste del metodo precedentemente chiamato
-
-# Output
-- la cartella Output contiene il file doxygen del progetto
