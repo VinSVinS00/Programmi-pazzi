@@ -1,0 +1,9 @@
+
+            <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.7.4</version>
+            </dependency>
+
+
+#queste stringhe di codice servono per far funzionare il database su NetBeans, bisogna implementare una nuova dependencies ed utilizzare i seguenti campi
