@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="648.0" prefWidth="872.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applicazione.PreferitiController">
+   <children>
+      <TableView fx:id="Preferiti" layoutX="121.0" layoutY="37.0" prefHeight="536.0" prefWidth="674.0">
+        <columns>
+          <TableColumn fx:id="Tnome" prefWidth="120.0" text="Nome" />
+          <TableColumn fx:id="Tcognome" prefWidth="150.0" text="Cognome" />
+            <TableColumn fx:id="Tnumero" prefWidth="161.0" text="Numero" />
+            <TableColumn fx:id="Tmail" prefWidth="242.0" text="Email" />
+        </columns>
+      </TableView>
+      <Button fx:id="rmv" layoutX="33.0" layoutY="69.0" mnemonicParsing="false" onAction="#rimuovi" text="Rimuovi" />
+      <Button fx:id="rtn" layoutX="33.0" layoutY="116.0" mnemonicParsing="false" onAction="#ritorna" prefHeight="31.0" prefWidth="74.0" text="Rubrica" />
+      <Label layoutX="345.0" layoutY="1.0" text="Contatti Preferiti">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

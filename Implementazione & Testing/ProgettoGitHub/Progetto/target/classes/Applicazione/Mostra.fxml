@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="566.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applicazione.MostraController">
+   <children>
+      <Label layoutX="23.0" layoutY="23.0" prefHeight="30.0" prefWidth="100.0" text="NOME">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="23.0" layoutY="63.0" text="COGNOME">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBnome" layoutX="148.0" layoutY="14.0" prefHeight="30.0" prefWidth="226.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBcognome" layoutX="148.0" layoutY="64.0" prefHeight="30.0" prefWidth="226.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="112.0" text="Numeri">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="289.0" layoutY="112.0" text="Email">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBnumero" layoutX="29.0" layoutY="157.0" prefHeight="30.0" prefWidth="187.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBnumero2" layoutX="29.0" layoutY="199.0" prefHeight="30.0" prefWidth="187.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBnumero3" layoutX="24.0" layoutY="235.0" prefHeight="30.0" prefWidth="187.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBmail" layoutX="275.0" layoutY="157.0" prefHeight="30.0" prefWidth="289.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBmail2" layoutX="275.0" layoutY="199.0" prefHeight="30.0" prefWidth="289.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="LBmail3" layoutX="271.0" layoutY="235.0" prefHeight="30.0" prefWidth="289.0">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button fx:id="rtn" layoutX="191.0" layoutY="295.0" mnemonicParsing="false" onAction="#ritorna" prefHeight="38.0" prefWidth="100.0" text="Rubrica" />
+   </children>
+</AnchorPane>

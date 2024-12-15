@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="820.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applicazione.RubricaController">
+   <children>
+      <TableView fx:id="Rubrica" layoutX="243.0" layoutY="128.0" prefHeight="323.0" prefWidth="538.0">
+        <columns>
+          <TableColumn fx:id="Tnome" prefWidth="102.0" text="Nome" />
+          <TableColumn fx:id="Tcognome" prefWidth="132.0" text="Cognome" />
+            <TableColumn fx:id="Tnumero" prefWidth="148.0" text="Numero" />
+            <TableColumn fx:id="Tmail" prefWidth="158.0" text="Email" />
+        </columns>
+      </TableView>
+      <Button fx:id="add" layoutX="20.0" layoutY="148.0" mnemonicParsing="false" onAction="#add" text="Aggiungi" />
+      <Button fx:id="mod" layoutX="20.0" layoutY="190.0" mnemonicParsing="false" onAction="#modify" prefHeight="31.0" prefWidth="81.0" text="Modifica" />
+      <Button fx:id="rmv" layoutX="111.0" layoutY="190.0" mnemonicParsing="false" onAction="#elimina" prefHeight="31.0" prefWidth="81.0" text="Rimuovi" />
+      <Button fx:id="show" layoutX="111.0" layoutY="148.0" mnemonicParsing="false" onAction="#show" prefHeight="31.0" prefWidth="81.0" text="Mostra" />
+      <TextField fx:id="TXfind" layoutX="243.0" layoutY="72.0" prefHeight="31.0" prefWidth="538.0" />
+      <Button fx:id="arc" layoutX="44.0" layoutY="249.0" mnemonicParsing="false" onAction="#archivia" text="Archivia Contatto" />
+      <Button fx:id="showA" layoutX="44.0" layoutY="296.0" mnemonicParsing="false" onAction="#showArchivio" prefHeight="31.0" prefWidth="135.0" text="Mostra Archivio" />
+      <Button fx:id="prefe" layoutX="44.0" layoutY="343.0" mnemonicParsing="false" onAction="#preferiti" prefHeight="31.0" prefWidth="135.0" text="Mostra Preferiti" />
+      <Label layoutX="21.0" layoutY="68.0" prefHeight="38.0" prefWidth="182.0" text="Barra di ricerca">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="14.0" text="Rubrica">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

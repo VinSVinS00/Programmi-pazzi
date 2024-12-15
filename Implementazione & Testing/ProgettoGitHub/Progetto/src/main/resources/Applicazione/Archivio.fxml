@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applicazione.ArchivioController">
+   <children>
+      <Button fx:id="sp" layoutX="27.0" layoutY="101.0" mnemonicParsing="false" onAction="#sposta" prefHeight="31.0" prefWidth="98.0" text="Sposta" />
+      <Button fx:id="rtn" layoutX="27.0" layoutY="145.0" mnemonicParsing="false" onAction="#ritorna" prefHeight="31.0" prefWidth="98.0" text="Rubrica" />
+      <TableView fx:id="Archivio" layoutX="147.0" layoutY="77.0" prefHeight="527.0" prefWidth="662.0">
+        <columns>
+          <TableColumn fx:id="Tnome" prefWidth="110.0" text="Nome" />
+          <TableColumn fx:id="Tcognome" prefWidth="143.0" text="Cognome" />
+            <TableColumn fx:id="Tnumero" prefWidth="175.0" text="Numero" />
+            <TableColumn fx:id="Tmail" prefWidth="233.0" text="Email" />
+        </columns>
+      </TableView>
+      <Label layoutX="376.0" layoutY="21.0" prefHeight="40.0" prefWidth="115.0" text="Archivio">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

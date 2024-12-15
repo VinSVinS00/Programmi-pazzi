@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="504.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Applicazione.ModificaController">
+   <children>
+      <Label fx:id="LBnome" layoutX="136.0" layoutY="28.0" prefHeight="21.0" prefWidth="261.0">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label layoutX="232.0" layoutY="86.0" text="Nome" />
+      <Label layoutX="217.0" layoutY="151.0" text="Cognome" />
+      <Label layoutX="225.0" layoutY="224.0" text="Numeri" />
+      <Label layoutX="232.0" layoutY="394.0" text="Email" />
+      <TextField fx:id="TXnome" layoutX="159.0" layoutY="107.0" />
+      <TextField fx:id="TXcognome" layoutX="156.0" layoutY="178.0" />
+      <TextField fx:id="TXnumero2" layoutX="158.0" layoutY="300.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="TXnumero" layoutX="158.0" layoutY="255.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="TXnumero3" layoutX="156.0" layoutY="350.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField fx:id="TXmail" layoutX="159.0" layoutY="430.0" />
+      <TextField fx:id="TXmail2" layoutX="159.0" layoutY="469.0" />
+      <TextField fx:id="TXmail3" layoutX="159.0" layoutY="509.0" />
+      <Button fx:id="save" layoutX="159.0" layoutY="552.0" mnemonicParsing="false" onAction="#modifica" prefHeight="31.0" prefWidth="71.0" text="Salva" />
+      <Button fx:id="ann" layoutX="273.0" layoutY="552.0" mnemonicParsing="false" onAction="#annulla" prefHeight="31.0" prefWidth="71.0" text="Annulla" />
+      <Button fx:id="pref" layoutX="159.0" layoutY="593.0" mnemonicParsing="false" onAction="#preferiti" prefHeight="31.0" prefWidth="187.0" text="Agggiungi ai preferiti" />
+   </children>
+</AnchorPane>
