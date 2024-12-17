@@ -255,5 +255,9 @@ public class RubricaController implements Initializable {
         stage.show();
     }
     }
+
+    public void setContats(Contatto contatto){
+        contats.add(contatto);
+    }
 }
 
